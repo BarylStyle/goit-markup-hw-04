@@ -8,6 +8,7 @@
     --SLATE: #434455;
     --kolo4: #404bbf;
     --kolor5: #31d0aa;
+    --kolor6: #8e8f99;
 }
 
 * {
@@ -580,4 +581,52 @@ img {
 
 .svg-class {
     fill: var(--cloud)
+}
+
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.h2-customers {
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--first-color-text);
+    margin-bottom: 72px;
+}
+
+.customer-list {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.li-customers {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+
+.customer-link {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--kolor6);
+}
+
+.customer-link:hover {
+    border-color: var(--kolo4);
+    color: var(--kolo4);
+}
+
+.customer-link:active {
+    border-color: var(--kolo4);
+    color: var(--kolo4);
+}
+
+.customers-svg {
+    fill: currentColor;
 }
