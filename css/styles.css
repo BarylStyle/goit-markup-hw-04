@@ -577,3 +577,7 @@ img {
 .social-link:hover {
     background-color: var(--kolo4);
 }
+
+.svg-class {
+    fill: var(--cloud)
+}
