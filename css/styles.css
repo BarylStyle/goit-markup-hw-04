@@ -535,6 +535,7 @@ img {
 }
 
 .footer-link:hover,
+.footer-link:focus,
 .footer-link:active {
     background-color: var(--kolor5);
 }
